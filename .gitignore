@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+/local.properties
+/.idea
+.DS_Store
+/build
+/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android
+app/build/
+
+# Firebase
+app/google-services.json
+
+# Java heap dump
+*.hprof
