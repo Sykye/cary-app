@@ -1,0 +1,15 @@
+# Normalisasi line ending lintas OS
+* text=auto eol=lf
+
+# Script Windows tetap CRLF, wrapper Unix tetap LF
+*.bat text eol=crlf
+gradlew text eol=lf
+
+# File biner
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.apk binary
+*.aab binary

@@ -16,5 +16,19 @@ app/build/
 # Firebase
 app/google-services.json
 
+# Kotlin compiler
+.kotlin/
+
+# Signing & secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+
+# Build output
+*.apk
+*.aab
+
 # Java heap dump
 *.hprof
